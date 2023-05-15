@@ -13,7 +13,7 @@ import nextjsIcon from "@/assets/nextjs.svg";
 const About = () => {
   return (
     <motion.section
-      initial={{ filter: "blur(20px)", opacity: 0.5, y: "10%" }}
+      initial={{ filter: "blur(20px)", opacity: 0, y: "10%" }}
       whileInView={{
         opacity: 1,
         filter: "blur(0px)",

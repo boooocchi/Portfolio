@@ -10,7 +10,7 @@ const Hero = () => {
     show: {
       opacity: 1,
       scale: 1,
-      transition: { type: "spring", duration: 0.2, damping: 10, delay: 0.4 }
+      transition: { type: "spring", duration: 0.2, damping: 10, delay: 0.55 }
     }
   };
 
@@ -19,7 +19,7 @@ const Hero = () => {
     show: {
       opacity: 1,
       scale: 1,
-      transition: { type: "spring", duration: 0.3, damping: 10, delay: 0.7 }
+      transition: { type: "spring", duration: 0.3, damping: 10, delay: 0.8 }
     }
   };
   const text2 = {
@@ -27,20 +27,20 @@ const Hero = () => {
     show: {
       opacity: 1,
       x: 0,
-      transition: { duration: 0.3, delay: 1.2 }
+      transition: { duration: 0.3, delay: 1.3 }
     }
   };
   const nameContainer = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
-      transition: { staggerChildren: 0.3, delayChildren: 1.2 }
+      transition: { staggerChildren: 0.3, delayChildren: 1.3 }
     }
   };
 
   const nameChild = {
     hidden: { opacity: 0, x: -10 },
-    show: { opacity: 1, x: 0, transition: { duration: 0.3 } }
+    show: { opacity: 1, x: 0, transition: { duration: 0.4 } }
   };
   return (
     <>

@@ -17,7 +17,8 @@ function Header() {
               duration: 0.8,
               type: "spring",
               damping: 12,
-              staggerChildren: 1
+              staggerChildren: 1,
+              delay: 0.3
             }
           }}
           className={`max-w-screen-xl mx-auto text-blueblack  ${style.nav}`}

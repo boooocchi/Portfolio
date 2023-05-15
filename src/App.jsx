@@ -16,8 +16,8 @@ const App = () => {
         <motion.div
           key={location.pathname}
           initial={{ x: "100%" }}
-          animate={{ x: "0%", transition: { duration: 0.1 } }}
-          exit={{ x: "-100%", transition: { duration: 0.1 } }}
+          animate={{ x: "0%", transition: { duration: 0.3 } }}
+          exit={{ x: "-100%", transition: { duration: 0.3 } }}
         >
           <Routes location={location}>
             <Route path="/" element={<Home />} />
