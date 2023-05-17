@@ -40,7 +40,7 @@ const About = () => {
       </p>
 
       <h2 className="text-2xl mb-3 mt-10 font-sans font-[600]">Skills</h2>
-      <div className="iconHolder flex gap-3">
+      <div className="iconHolder flex gap-3 flex-wrap">
         <img src={htmlIcon} alt="html icon" className="h-[2rem] " />
         <img src={cssIcon} alt="css icon" className="h-[2rem] " />
         <img src={javascriptIcon} alt="javascript icon" className="h-[2rem] " />

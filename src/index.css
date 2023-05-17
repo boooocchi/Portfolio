@@ -6,6 +6,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  min-width: 350px;
+}
 
 .opacity1 {
   opacity: 1 !important;

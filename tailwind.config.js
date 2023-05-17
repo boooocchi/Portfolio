@@ -11,7 +11,14 @@ module.exports = {
     colors: {
       blueblack: "#21272b",
       primary: "rgb(238, 64, 46)"
-    }
-  },
-  plugins: []
+    },
+    screens: {
+      "phone": "480px",
+      "md": "768px",
+      "sm": "640px",
+      "lg": "1024px"
+    },
+
+    plugins: []
+  }
 };
