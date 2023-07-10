@@ -1,7 +1,5 @@
 import React from "react";
-import work from "@/assets/project.jpg";
 import { motion, useScroll } from "framer-motion";
-import smartRecipe from "../assets/smartRecipe.jpg";
 
 const Work = () => {
   return (
