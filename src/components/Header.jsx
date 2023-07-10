@@ -7,7 +7,7 @@ import style from "./Header.module.scss";
 function Header() {
   return (
     <>
-      <header className="text-blueblack">
+      <header className="text-blueblack ">
         <motion.nav
           initial={{ opacity: 0, y: 20 }}
           animate={{
@@ -21,20 +21,31 @@ function Header() {
               delay: 0.3
             }
           }}
-          className={`max-w-screen-xl mx-auto text-blueblack  ${style.nav}`}
+          className={`max-w-[1200px] mx-auto text-blueblack  ${style.nav} py-[.5rem] px-[2rem] max-sm:px-[1rem]`}
         >
-          <NavLink className="text-blueblack hover:underline" to="/">
+          <NavLink
+            className="text-blueblack hover:underline max-sm:text-[.9rem]"
+            to="/"
+          >
             HOME
           </NavLink>
-          <ul>
+          <ul className="max-sm:gap-[1.2rem] gap-[2.7rem] max-sm:text-[.9rem]">
             <li className="text-blueblack">
               <a className="text-blueblack" href="#about">
                 ABOUT
               </a>
             </li>
-            <li>
+            <li className="text-blueblack">
               <a className="text-blueblack" href="#work">
                 WORK
+              </a>
+            </li>
+            <li>
+              <a
+                className="text-blueblack"
+                href="https://drive.google.com/file/d/1wcdRiqCYWc4LtjPCWQd35xaGfaZz7irr/view?usp=drive_link"
+              >
+                RESUME
               </a>
             </li>
             <li>
