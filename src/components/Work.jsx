@@ -28,9 +28,12 @@ const Work = () => {
             <p className="relative  transition duration-500 opacity-0 group-hover/item:opacity-100 translate-y-[1rem] group-hover/item:translate-y-[0rem] text-[white] font-main text-sm">
               Check out all of these gorgeous mountain trips with beautiful
             </p>
-            <button className="ransition duration-500 opacity-0 group-hover/item:opacity-100  translate-y-[1rem] group-hover/item:translate-y-[0rem] text-blueblack  px-3 py-2 bg-[white] leading-[1rem] tracking-tighter text-[0.9rem] rounded-sm mt-auto">
-              View more
-            </button>
+            <a
+              className="ransition duration-500 opacity-0 group-hover/item:opacity-100  translate-y-[1rem] group-hover/item:translate-y-[0rem] text-blueblack  px-3 py-2 bg-[white] leading-[1rem] tracking-tighter text-[0.9rem] rounded-sm mt-auto"
+              href="https://smart-recipe-iota.vercel.app/login"
+            >
+              Visit the Site
+            </a>
           </div>
         </div>
       </div>
