@@ -47,10 +47,10 @@ const Hero = () => {
   return (
     <>
       <motion.section
-        className={`h-[550px] max-md:h-[430px] ${styles.heroSection} max-sm:h-screen max-sm:min-h-[600px] max-sm:max-h-[750px] max-phone:max-h-[600px]`}
+        className={`h-[550px] max-md:h-[430px] ${styles.heroSection} max-sm:h-screen max-sm:min-h-[740px] max-sm:max-h-[750px]  max-phone:max-h-[600px] max-phone:min-h-[550px]`}
       >
         <div
-          className={`h-full flex overflow-hidden text-blueblack ${styles.wrapper} gap-[1%] w-full  justify-center max-w-[1200px] first-line:max-sm:flex max-sm:flex-col max-sm:gap-0`}
+          className={`h-full flex overflow-hidden text-blueblack ${styles.wrapper} gap-[1%] w-full  justify-center max-w-[1400px] first-line:max-sm:flex max-sm:flex-col max-sm:gap-0`}
         >
           <div
             className={

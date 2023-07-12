@@ -20,7 +20,7 @@ const Form = (props) => {
         }
       }}
       viewport={{ once: true, amount: 0.5 }}
-      className="flex flex-col max-md:w-[80%]  mb-24 mx-auto w-8/12 max-w-screen-lg mt-20"
+      className="flex flex-col max-md:w-[80%]  mb-24 mx-auto w-8/12 max-w-[1000px]  mt-20"
     >
       <h2 className="text-2xl my-3 font-sans font-[600] ">Contact</h2>
       <form

@@ -21,7 +21,7 @@ function Header() {
               delay: 0.3
             }
           }}
-          className={`max-w-[1200px] mx-auto text-blueblack  ${style.nav} py-[.5rem] px-[2rem] max-sm:px-[1rem]`}
+          className={`max-w-[1000px] mx-auto text-blueblack  ${style.nav} py-[.5rem] w-8/12 max-md:w-[80%] max-phone:w-[90%]`}
         >
           <NavLink
             className="text-blueblack hover:underline max-sm:text-[.9rem]"
@@ -29,7 +29,7 @@ function Header() {
           >
             HOME
           </NavLink>
-          <ul className="max-sm:gap-[1.2rem] gap-[2.7rem] max-sm:text-[.9rem]">
+          <ul className="max-sm:gap-[0.8rem] gap-[2.7rem]  max-sm:text-[.9rem]">
             <li className="text-blueblack">
               <a className="text-blueblack" href="#about">
                 ABOUT

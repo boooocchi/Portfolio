@@ -26,7 +26,7 @@ const About = () => {
         }
       }}
       viewport={{ once: true, amount: 0.6 }}
-      className="about w-8/12 max-md:w-[80%] mx-auto mt-24 mb-20 max-w-screen-xl flex max-md:flex-col gap-[10%]"
+      className="about w-8/12 max-md:w-[80%] mx-auto mt-24 mb-20 max-w-[1000px] flex max-md:flex-col gap-[10%]"
       id="about"
     >
       <div className="w-[55%] max-md:w-full">
