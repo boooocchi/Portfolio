@@ -15,7 +15,7 @@ const ProjectCard = () => {
     >
       <motion.div
         drag="x"
-        dragConstraints={{ right: 0, left: -1000 }}
+        dragConstraints={{ right: 0, left: -1100 }}
         className="inner-carousel gap-3 flex"
       >
         <motion.div className="item">
