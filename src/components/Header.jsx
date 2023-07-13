@@ -31,12 +31,18 @@ function Header() {
           </NavLink>
           <ul className="max-sm:gap-[0.8rem] gap-[2.7rem]  max-sm:text-[.9rem]">
             <li className="text-blueblack">
-              <a className="text-blueblack" href="#about">
+              <a
+                className="text-blueblack"
+                href="https://portfolio-hrujbyxbl-boooocchi.vercel.app/#about"
+              >
                 ABOUT
               </a>
             </li>
             <li className="text-blueblack">
-              <a className="text-blueblack" href="#work">
+              <a
+                className="text-blueblack"
+                href="https://portfolio-hrujbyxbl-boooocchi.vercel.app/#work#work"
+              >
                 WORK
               </a>
             </li>
