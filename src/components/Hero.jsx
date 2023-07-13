@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.scss";
-import profile from "@/assets/profile.png";
-import vancouver from "@/assets/vancouver.png";
+import profile from "@/assets/profile.webp";
+import vancouver from "@/assets/vancouver.webp";
 import { motion } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
 
