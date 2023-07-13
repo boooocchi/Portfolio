@@ -33,7 +33,7 @@ function Header() {
             <li className="text-blueblack">
               <a
                 className="text-blueblack"
-                href="https://portfolio-hrujbyxbl-boooocchi.vercel.app/#about"
+                href="https://portfolio-kotaito-development.vercel.app/#about"
               >
                 ABOUT
               </a>
@@ -41,7 +41,7 @@ function Header() {
             <li className="text-blueblack">
               <a
                 className="text-blueblack"
-                href="https://portfolio-hrujbyxbl-boooocchi.vercel.app/#work#work"
+                href="https://portfolio-kotaito-development.vercel.app/#work"
               >
                 WORK
               </a>
