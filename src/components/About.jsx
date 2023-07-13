@@ -11,6 +11,10 @@ import expressIcon from "@/assets/express.svg";
 import nextjsIcon from "@/assets/nextjs.svg";
 import prismaIcon from "@/assets/prisma.svg";
 import postgresIcon from "@/assets/postgresql.svg";
+import reduxIcon from "@/assets/redux.svg";
+import typescriptIcon from "@/assets/typescript.svg";
+import supabaseIcon from "@/assets/supabase.svg";
+import framermotionIcon from "@/assets/framer-logo.svg";
 
 const About = () => {
   return (
@@ -55,13 +59,25 @@ const About = () => {
             alt="javascript icon"
             className="h-[2rem] "
           />
+          <img
+            src={typescriptIcon}
+            alt="typescript icon"
+            className="h-[1.8rem] relative top-[2px]"
+          />
           <img src={reactIcon} alt="react icon" className="h-[2rem] " />
-          <img src={nodejsIcon} alt="nodejs icon" className="h-[2rem] " />
-          <img src={tailwindIcon} alt="tailwind icon" className="h-[2rem] " />
-          <img src={expressIcon} alt="express icon" className="h-[2rem] " />
+          <img src={reduxIcon} alt="redux icon" className="h-[2rem] " />
           <img src={nextjsIcon} alt="nextjs icon" className="h-[2rem] " />
+          <img src={nodejsIcon} alt="nodejs icon" className="h-[2rem] " />
+          <img src={expressIcon} alt="express icon" className="h-[2rem] " />
           <img src={prismaIcon} alt="prisma icon" className="h-[2rem] " />
           <img src={postgresIcon} alt="postgresql icon" className="h-[2rem] " />
+          <img src={supabaseIcon} alt="supabase icon" className="h-[2rem] " />
+          <img src={tailwindIcon} alt="tailwind icon" className="h-[2rem] " />
+          <img
+            src={framermotionIcon}
+            alt="framer-motion icon"
+            className="h-[2rem] "
+          />
         </div>
       </div>
     </motion.section>
