@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import { motion, useScroll } from "framer-motion";
-import smartRecipeImg from "../assets/smartRecipe.jpg";
 const Work = () => {
   return (
     <motion.section

@@ -44,6 +44,7 @@ function Header() {
               <a
                 className="text-blueblack"
                 href="https://drive.google.com/file/d/1wcdRiqCYWc4LtjPCWQd35xaGfaZz7irr/view?usp=drive_link"
+                target="_blank"
               >
                 RESUME
               </a>
