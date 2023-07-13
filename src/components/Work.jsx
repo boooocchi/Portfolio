@@ -18,7 +18,12 @@ const Work = () => {
       className="work w-8/12 max-md:w-[80%] mx-auto  max-w-[1000px] "
       id="work"
     >
-      <h2 className="text-2xl mt-3 mb-4 font-sans font-[600]">Work</h2>
+      <h2 className="text-2xl mt-3 mb-4 font-sans font-[600] flex items-center gap-5">
+        Work{" "}
+        <span className="text-lg relative top-[3px] font-normal animate-bounce">
+          scroll→
+        </span>
+      </h2>
 
       <ProjectCard imageName="smartRecipeImg"></ProjectCard>
     </motion.section>

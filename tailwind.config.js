@@ -18,7 +18,12 @@ module.exports = {
       "sm": "640px",
       "lg": "1024px"
     },
+    extend: {
+      animation: {
+        bounce: "bounce 1s ease-in-out infinite"
+      },
 
-    plugins: []
+      plugins: []
+    }
   }
 };
