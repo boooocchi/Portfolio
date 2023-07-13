@@ -30,26 +30,30 @@ const About = () => {
         }
       }}
       viewport={{ once: true, amount: 0.6 }}
-      className="about w-8/12 max-md:w-[80%] mx-auto mt-24 mb-20 max-w-[1000px] flex max-md:flex-col gap-[10%]"
+      className="about w-8/12 max-md:w-[80%] mx-auto mt-24 mb-20 max-w-[1000px] flex max-md:flex-col gap-[7%]"
       id="about"
     >
-      <div className="w-[55%] max-md:w-full">
+      <div className="w-[53%] max-md:w-full text-[1.2rem] font-thin">
         <h2 className="text-2xl font-sans font-[600] mb-4">About Me</h2>
         <p>
           Highly motivated web developer with a passion for coding and a strong
-          desire to learn. Excels at problem-solving and working collaboratively
-          in a team environment. I am also a quick learner who is highly
-          adaptable and comfortable with a rapidly evolving field of
+          desire to learn. Excels at{" "}
+          <span className="font-bold">
+            problem-solving and working collaboratively in a team environment
+          </span>
+          . I am also a <span className="font-bold">quick learner</span> who is
+          highly adaptable and comfortable with a rapidly evolving field of
           technologies.
         </p>
         <br />
         <p>
-          Seeking a junior developer position to contribute to exciting and
-          innovative projects and continue to develop my skills in the field.
+          Seeking a <span className="font-bold">junior developer position</span>{" "}
+          to contribute to exciting and innovative projects and continue to
+          develop my skills in the field.
         </p>
       </div>
 
-      <div className="w-[35%] max-md:w-full max-md:mt-[3rem]">
+      <div className="w-[40%] max-md:w-full max-md:mt-[3rem]">
         <h2 className="text-2xl mb-4 font-sans font-[600]">Skills</h2>
         <div className="iconHolder flex gap-5 flex-wrap">
           <img src={htmlIcon} alt="html icon" className="h-[2rem] " />
