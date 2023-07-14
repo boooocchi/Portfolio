@@ -119,7 +119,7 @@ const ProjectCard = () => {
               </p>
               <a
                 className="transition duration-500 opacity-0 group-hover/item:opacity-100  translate-y-[1rem] group-hover/item:translate-y-[0rem] text-blueblack  px-3 py-2 bg-[white] leading-[1rem] tracking-tighter text-[0.9rem] rounded-sm mt-auto"
-                href="https://sharexapp-63la7wjyb-boooocchi.vercel.app/"
+                href="https://sharexapp.vercel.app/"
                 target="_blank"
               >
                 Visit the Site
@@ -165,7 +165,7 @@ const ProjectCard = () => {
               </p>
               <a
                 className="transition duration-500 opacity-0 group-hover/item:opacity-100  translate-y-[1rem] group-hover/item:translate-y-[0rem] text-blueblack  px-3 py-2 bg-[white] leading-[1rem] tracking-tighter text-[0.9rem] rounded-sm mt-auto"
-                href="https://nodejs-midterm-tau.vercel.app/"
+                href="https://snippetsofmyhazydays-boooocchi.vercel.app/"
                 target="_blank"
               >
                 Visit the Site
