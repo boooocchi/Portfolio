@@ -84,16 +84,16 @@ const ProjectCard = () => {
             className={`${cardClass}  before:bg-[url("@/assets/SharEx.png")]`}
           >
             <div className="transition duration-500 content relative flex flex-col items-center w-full h-full z-[11] transform translate-y-[35%] py-5  group-hover/item:translate-y-[0%] justify-center px-5">
-              <h2 className="text-[white] text-[1.3rem] leading-1 font-sans font-[700]  mb-5 border-b border-white border-b-width-[1px] border-b-style-solid pb-[1px] drop-shadow-lg">
+              <h2 className="text-[white] text-[1.3rem] leading-1 font-sans font-[700]  mb-5 max-sm:mb-3 border-b border-white border-b-width-[1px] border-b-style-solid pb-[1px] drop-shadow-lg">
                 SharEx.
               </h2>
               <p className="relative  transition duration-500 opacity-0 group-hover/item:opacity-100 translate-y-[1rem] group-hover/item:translate-y-[0rem] text-[white] font-main text-sm">
                 A web application where users can share their English vocabulary
-                and its example sentences. It is a personal vocabulary notebook
-                app but also users can contribute to a global community of
-                English learners
+                and its example sentences. It's a personal vocabulary note app
+                but also users can contribute to a global community of English
+                learners
               </p>
-              <p className="relative  mt-5 transition duration-500 opacity-0 group-hover/item:opacity-100 translate-y-[1rem] group-hover/item:translate-y-[0rem] text-[white] font-main text-sm flex justify-start w-full gap-2">
+              <p className="relative  mt-5 max-sm:mt-2 transition duration-500 opacity-0 group-hover/item:opacity-100 translate-y-[1rem] group-hover/item:translate-y-[0rem] text-[white] font-main text-sm flex justify-start w-full gap-2">
                 <img
                   src={nextjsIcon}
                   alt="Next.js icon"
